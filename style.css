@@ -1,0 +1,125 @@
+#logo {
+    margin:auto;
+    width:272px;
+    display:block;
+}
+#mainsearch {
+    margin:auto auto;
+    width:100%;
+    display:block;
+    padding:15% 0px;
+}
+input {
+    width:30%;
+    min-width:487px;
+    line-height:26px;
+    border: 1px solid #d8d8d8;
+    display:block;
+    margin:30px auto;
+    margin-top:20px;
+    font-size: 16px;
+    padding:auto;
+}
+#speech {
+    height:50px;
+    width:50px;
+    display:none;
+    
+}
+#microphone {
+    height:25px;
+    width:25px;
+    display:none;
+}
+#buttons {
+    display:block;
+    margin: auto;
+    height:58px;
+    position:relative;
+    width:270px;
+    height:58px;
+  }
+button {
+      background-color:#f2f2f2; 
+    color:#747474;
+    border: 1px solid #f2f2f2;
+    padding:9px 12px;
+    font-size:13px;
+    font-weight:bold;
+    border-radius:2px;
+    margin:11px 0px;
+    display:inline-block;
+    margin:auto;
+}
+button[name=submit] {
+width:122px;
+    }
+button[name=lucky] {
+width:140px;
+    }
+button[name=submit]:hover{
+    border: 1px solid #747474;
+    color:black;
+}
+button[name=lucky]:hover{
+    border: 1px solid #747474;
+    color:black;
+}
+
+input[type=text]:hover {
+    border: 1px solid #747474;
+}
+input[type=text]:focus {
+    border: 1px solid blue;
+}
+#footer {
+    background-color: #f2f2f2;
+    height:40px;
+    width:100%;
+    position:absolute;
+    bottom: 0px;
+    line-height: 40px;
+    font-size:small;
+}
+a {
+    color:#666;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.footerleft {
+    display:inline-block;
+    margin:0;
+    padding-right:27px;
+}
+.footerright {
+    display: inline-block;
+    margin:0px;
+    padding-left:27px;
+    float:right;
+}
+#advertising {
+    padding-left:27px;
+}
+#settings {
+    padding-right:27px;
+}
+#header {
+    height:40px;
+    width:100%;
+    position:absolute;
+    top: 10px;
+    line-height: 24px;
+    font-size:small;
+    font-family: Arial, sans-serif;
+    display:inline-block;
+   
+    float:right;
+    margin:0;}
+#header a {
+    float:right;
+     padding-right:27px;
+}
